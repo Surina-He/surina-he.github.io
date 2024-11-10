@@ -21,7 +21,7 @@ repository               : "Surina-He/surina-he.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "mypic.jpg"
   name             : # "Surina He"
   pronouns         : # example: "she/her"  
   bio              : "                     "
