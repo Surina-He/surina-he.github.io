@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Surina He's Personal Website"
 title_separator          : "-"
 name                     : "Surina He"
-description              : &description "   "
+description              : # &description "   "
 url                      : # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Surina-He/surina-he.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "profile.png"
   name             : "Surina He"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
+  bio              : "                     "
   location         : "Edmonton, Alberta, Canada"
   employer         : "University of Alberta"
   uri              : # URL
-  email            : &description "surina1@ualberta.ca" 
+  email            : "surina1@ualberta.ca" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
