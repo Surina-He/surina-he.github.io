@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,9 +10,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Measurement, Evaluation, and Data Science (MEDS), University of Alberta, 2025 (expected)
+* M.Ed. in Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2020
+* B.S. in Faculty of Psychology, Beijing Normal University, 2015
 
 Work experience
 ======
