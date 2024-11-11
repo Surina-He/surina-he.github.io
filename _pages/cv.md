@@ -15,7 +15,7 @@ EDUCATION
 * **Visiting Student** (2018), National Center for Research on Evaluation, Standards, and Student Testing (CRESST), University of California, Los Angeles, California, United States
 * **B.S.** (2015), Faculty of Psychology, Beijing Normal University, Beijing, China
 * **Visiting Student** (2014), Department of Psychology, University of Michigan, Ann Arbor, Michigan, United States
-&nbsp;
+
 &nbsp;
 
 WORK EXPERIENCE
@@ -35,7 +35,7 @@ WORK EXPERIENCE
   * Project: Digital Performance-Based Learning and Assessment System for Data Literacy
   * Role: Collecting data from learning management systems and analyzing system log data
 
-* **Researcher and Team leader**  (2020.07 - 2021.08), Yuanfudao Online Technology Company, China
+* **Researcher and Team leader** (2020.07 - 2021.08), Yuanfudao Online Technology Company, China
   * Advisor: Xiaojing Guo
   * Branch: Zebra AI, Research team
   * Role: Building an encyclopedia for preschool children's development and designing course outline
@@ -51,6 +51,7 @@ WORK EXPERIENCE
   * Project 2: The Longitudinal Study on the Mechanism of Primary School Students' Filial Piety Beliefs: Family Structure, Parental Filial Belief and Parental Education Involvement
   * Role: Using latent growth model to analyze large-scale data and writing manuscripts
 
+&nbsp;
   
 AWARDS, GRANTS, & SCHOLARSHIPS
 ======
@@ -66,17 +67,27 @@ AWARDS, GRANTS, & SCHOLARSHIPS
   * Project: Examining pre-school children’s problem-solving strategies using process data
   * Amount: CAD 12,000
 
-* [**ATLAS Doctoral Research Fellowship**](https://atlas.ku.edu/fellowship)(2022), University of Kansas, United States
+* [**ATLAS Doctoral Research Fellowship**](https://atlas.ku.edu/fellowship) (2022), University of Kansas, United States
   * Project: Systematic review of the use of process data in educational assessment
   * Amount: USD 16,000
 
-* [**University of Alberta Doctoral Recruitment Scholarship**](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/recruitment-scholarship.html)(2020), University of Alberta, Canada
+* [**University of Alberta Doctoral Recruitment Scholarship**](https://www.ualberta.ca/en/graduate-studies/fees-funding/scholarships-awards/recruitment-scholarship.html) (2020), University of Alberta, Canada
   * Amount: CAD 5,000
 
 * **The First Prize Academic Scholarship** (2019, 2018), Beijing Normal University, China
   * Amount: CNY 12,000 × 2
 
+&nbsp;
   
-Service and leadership
+ACADEMIC SERVICES
 ======
-* Currently signed in to 43 different slack teams
+* Statistical and Methodological Consultant at CRAME, University of Alberta (2022 – 2024)
+* Journal Reviewer:
+  * Computers & Education
+  * Journal of Educational Data Mining
+  * Frontiers in Psychology
+  * Chinese/English Journal of Educational Measurement and Evaluation
+* Proposal Reviewer:
+  * 2025 National Council on Measurement in Education (NCME) Annual Meeting
+  * 2025 American Educational Research Association (AERA) Annual Meeting
+  * 2024 International Conference on Educational Data Mining (EDM)
