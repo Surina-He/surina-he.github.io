@@ -5,9 +5,7 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-
-
-  <div class="author__content">
+  
   <div class="author__avatar" style="text-align: center;">
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="{{ author.name }}" style="display: block; margin: 0 auto;">
@@ -17,9 +15,9 @@
   </div>
 
   <div class="author__content">
-  <h3 class="author__name" style="text-align: center;">{{ author.name }}</h3>
-  {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-  {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+   <h3 class="author__name" style="text-align: center;">{{ author.name }}</h3>
+   {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+   {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
