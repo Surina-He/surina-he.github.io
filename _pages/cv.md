@@ -10,11 +10,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D. (Expected 2025), Measurement, Evaluation, and Data Science, University of Alberta, Edmonton, Canada
-* M.Ed. (2020), Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, Beijing, China
-* Visiting Student (2018), National Center for Research on Evaluation, Standards, and Student Testing (CRESST), University of California, Los Angeles, California, United States
-* B.S. (2015), Faculty of Psychology, Beijing Normal University, Beijing, China
-* Visiting Student (2014), Department of Psychology, University of Michigan, Ann Arbor, Michigan, United States
+* **Ph.D.** (Expected 2025), Measurement, Evaluation, and Data Science, University of Alberta, Edmonton, Canada
+* **M.Ed.** (2020), Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, Beijing, China
+* **Visiting Student** (2018), National Center for Research on Evaluation, Standards, and Student Testing (CRESST), University of California, Los Angeles, California, United States
+* **B.S.** (2015), Faculty of Psychology, Beijing Normal University, Beijing, China
+* **Visiting Student** (2014), Department of Psychology, University of Michigan, Ann Arbor, Michigan, United States
+
 
 Work experience
 ======
