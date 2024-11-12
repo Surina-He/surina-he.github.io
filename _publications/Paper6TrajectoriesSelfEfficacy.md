@@ -1,8 +1,8 @@
 ---
-title: "The Impact of Power on Humanity: SelfDehumanization in Powerlessness"
+title: "Trajectories of paternal self-efficacy for educational involvement in late childhood: Effects of fathers’ time and energy"
 collection: publications
 category: manuscripts
-permalink: /_publications/Paper2Power
-paperurl: 'http://surina-he.github.io/files/Paper2Power.pdf'
-citation: 'Yang, W., Jin, S., He, S., Fan Q., & Zhu. Y. (2015). The Impact of Power on Humanity: Self-Dehumanization in Powerlessness. *PLoS ONE, 10(5)*, e0125721. https://doi.org/10.1371/journal.pone.0125721'
+permalink: /_publications/Paper6TrajectoriesSelfEfficacy
+paperurl: 'http://surina-he.github.io/files/Paper6TrajectoriesSelfEfficacy.pdf'
+citation: 'Bi, T., Zhang, T., He, S., Guo, X., Liu, C., Liu, X., & Luo, L. (2021). Trajectories of paternal self-efficacy for educational involvement in late childhood: Effects of fathers’ time and energy. *Journal of Family Psychology. 35(8)*, 1171–1180. https://doi.org/10.1037/fam0000840'
 ---
