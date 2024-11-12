@@ -3,15 +3,16 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
-    <!-- Display the citation -->
-    {% if post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% endif %}
-
-    <!-- Display the download link for the paper -->
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}" download>Download Paper</a></p>
-    {% endif %}
+    <ul>
+      <!-- Display the citation with a bullet point and attach the download link after it -->
+      {% if post.citation %}
+        <li>{{ post.citation }}
+          {% if post.paperurl %}
+            (<a href="{{ post.paperurl }}" download>Download Paper</a>)
+          {% endif %}
+        </li>
+      {% endif %}
+    </ul>
 
   </article>
 </div>
