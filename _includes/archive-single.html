@@ -4,9 +4,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     <ul>
-      <!-- Display the citation with a bullet point and attach the download link after it -->
+      <!-- Display the citation with a bullet point, italicizing the journal name, and attach the download link after it -->
       {% if post.citation %}
-        <li>{{ post.citation }}
+        <li>{{ post.citation | replace: '*', '<i>' | replace: '*', '</i>' }}
           {% if post.paperurl %}
             (<a href="{{ post.paperurl }}" download>Download Paper</a>)
           {% endif %}
