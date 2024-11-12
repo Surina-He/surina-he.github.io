@@ -18,7 +18,7 @@ EDUCATION
 
 &nbsp;
 
-WORK EXPERIENCE
+RESEARCH EXPERIENCE
 ======
 * **Research Assistant** (2023.12 - 2024.04), University of Alberta, Canada
   * PI: [Dr. Jacqueline P. Leighton](https://apps.ualberta.ca/directory/person/jleighto) and [Dr. Carla Peck](https://apps.ualberta.ca/directory/person/peck1)
