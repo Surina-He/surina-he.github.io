@@ -1,8 +1,8 @@
 ---
-title: "A Comparison of undersampling, oversampling, and SMOTE methods for dealing with imbalanced classification in educational data mining."
+title: "Developmental trajectories of children’s educational expectations in China: Contributions of academic achievement and maternal expectations"
 collection: publications
 category: manuscripts
 permalink: /_publications/Paper7TajectoriesExpectations
 paperurl: 'http://surina-he.github.io/files/Paper7TajectoriesExpectations.pdf'
-citation: 'Wongvorachan. T., He, S., & Bulut, O. (2023). A Comparison of undersampling, oversampling, and SMOTE methods for dealing with imbalanced classification in educational data mining. *Information. 14(1)*, 54. https://doi.org/10.3390/info14010054'
+citation: 'He, S., Guo, X., Bi, T., Zhang, T., & Luo, L. (2023). Developmental trajectories of children’s educational expectations in China: Contributions of academic achievement and maternal expectations. *Contemporary Educational Psychology, 72*, 102144. https://doi.org/10.1016/j.cedpsych.2022.102144'
 ---
