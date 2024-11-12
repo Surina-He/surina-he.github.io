@@ -1,8 +1,8 @@
 ---
-title: "The Impact of Power on Humanity: SelfDehumanization in Powerlessness"
+title: "Enhancing high-school dropout identification: A collaborative approach integrating human and machine insights"
 collection: publications
 category: manuscripts
-permalink: /_publications/Paper2Power
-paperurl: 'http://surina-he.github.io/files/Paper2Power.pdf'
-citation: 'Yang, W., Jin, S., He, S., Fan Q., & Zhu. Y. (2015). The Impact of Power on Humanity: Self-Dehumanization in Powerlessness. *PLoS ONE, 10(5)*, e0125721. https://doi.org/10.1371/journal.pone.0125721'
+permalink: /_publications/Paper12DroupOut
+paperurl: 'http://surina-he.github.io/files/Paper12DroupOut.pdf'
+citation: 'Bulut, O., Wongvorachan, T., He, S., & Lee, S. (2024). Enhancing high-school dropout identification: A collaborative approach integrating human and machine insights. *Discover Education*. https://doi.org/10.1007/s44217-024-00209-4'
 ---
