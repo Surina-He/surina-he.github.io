@@ -2,11 +2,11 @@
 title: "Dehumanization: Theoretical Comparison and Application"
 collection: publications
 category: manuscripts
-permalink: /publication/dehumanization-theoretical-comparison-and-application
+permalink: /_publications/dehumanization-theoretical-comparison-and-application
 excerpt: 'This paper reviews theories and empirical studies regarding dehumanization.'
-date: 2015
+date: 2015-01-01
 venue: 'Advances in Psychological Science (Chinese)'
-paperurl: 'http://surina-he.github.io/files/1_Dehumanization_Theoretical_Comparison_and_Application.pdf'
+paperurl: 'http://surina-he.github.io/files/paper1.pdf'
 citation: 'Yang, W., Jin, S., He, S., Zhang, X., & Fan, Q. (2015). Dehumanization: Theoretical Comparison and Application. *Advances in Psychological Science*, 23(7), 1267-1279. https://doi.org/10.3724/SP.J.1042.2015.01267'
 ---
 
