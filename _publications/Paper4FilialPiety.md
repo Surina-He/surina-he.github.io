@@ -1,8 +1,8 @@
 ---
-title: "The Impact of Power on Humanity: SelfDehumanization in Powerlessness"
+title: "Mothers’ filial piety and children’s academic achievement: The indirect effect via mother-child discrepancy in perceived parental expectations"
 collection: publications
 category: manuscripts
-permalink: /_publications/Paper2Power
-paperurl: 'http://surina-he.github.io/files/Paper2Power.pdf'
-citation: 'Yang, W., Jin, S., He, S., Fan Q., & Zhu. Y. (2015). The Impact of Power on Humanity: Self-Dehumanization in Powerlessness. *PLoS ONE, 10(5)*, e0125721. https://doi.org/10.1371/journal.pone.0125721'
+permalink: /_publications/Paper4FilialPiety
+paperurl: 'http://surina-he.github.io/files/Paper4FilialPiety.pdf'
+citation: 'Guo, X., Guo, L., He, S., Liu, C., & Luo, L. (2020). Mothers’ filial piety and children’s academic achievement: The indirect effect via mother-child discrepancy in perceived parental expectations. *Educational Psychology, 40(10)*, 1230-1248. https://doi.org/10.1080/01443410.2020.1749235'
 ---
