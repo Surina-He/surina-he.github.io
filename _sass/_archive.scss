@@ -132,6 +132,12 @@
     @include gallery(5 of 10);
     .archive__item-teaser {
       max-height: 200px;
+    .list__item {
+       max-width: 100%; /* Allow full width */
+       white-space: normal; /* Allow wrapping */
+       overflow: visible; /* Ensure no hidden overflow */
+}
+
     }
   }
 
