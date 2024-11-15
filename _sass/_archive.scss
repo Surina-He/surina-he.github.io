@@ -257,9 +257,9 @@
 }
 
 .citation-single-line {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal !important; /* Allow wrapping */
+  overflow: visible !important; /* Prevent hidden overflow */
+  max-width: 100% !important; /* Ensure it uses full width */
 
   @media (max-width: 768px) { /* Adjust breakpoint as needed */
     white-space: normal;
