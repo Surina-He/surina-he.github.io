@@ -248,5 +248,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  @media (max-width: 768px) { /* Adjust breakpoint as needed */
+    white-space: normal;
+    overflow: visible;
+  }
 }
 
