@@ -1,12 +1,12 @@
 {% include base_path %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="max-width: 100%; white-space: normal; overflow: visible;">
     
     <ul>
       <!-- Display the citation with a bullet point, italicizing text between asterisks, and attach the download link after it -->
       {% if post.citation %}
-        <li class="citation-single-line">
+        <li class="citation-single-line" style="white-space: normal; overflow: visible; max-width: 100%;">
           {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
           {% if post.paperurl %}
             (<a href="{{ post.paperurl }}" download>Download Paper</a>)
