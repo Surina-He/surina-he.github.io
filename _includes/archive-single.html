@@ -6,7 +6,7 @@
     <ul>
       <!-- Display the citation with a bullet point, italicizing text between asterisks, and attach the download link after it -->
       {% if post.citation %}
-        <li>
+        <li class="citation-single-line">
           {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
           {% if post.paperurl %}
             (<a href="{{ post.paperurl }}" download>Download Paper</a>)
