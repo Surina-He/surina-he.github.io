@@ -7,7 +7,10 @@
 main:
   - title: "Academic"
     url: /cv/
-  
+
+  - title: "Research"
+    url: 
+       
   - title: "Publications"
     url: /publications/
 
@@ -17,11 +20,5 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: 
-        
-  - title: "Blog Posts"
-    url: 
-    
-  - title: "Guide"
+  - title: "Contact Me"
     url: 
