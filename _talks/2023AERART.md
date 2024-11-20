@@ -1,7 +1,0 @@
----
-title: "Using Machine Learning to Predict Teacher Research Reading"
-collection: presentations
-permalink: /_presentations/2023AERART
-paperurl: '/downloads/2023AERART.pdf'
-citation: 'Yousefpoori-Naeim, M., He, S., Cui, Y., & Cutumisu, M. (2023 April). *Using Machine Learning to Predict Teacher Research Reading*. Paper presented at the annual meeting of the American Educational Research Association, Chicago, IL.'
----
