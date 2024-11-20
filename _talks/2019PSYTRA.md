@@ -1,0 +1,7 @@
+---
+title: "The Antecedents of Trajectory of Maternal Educational Expectations for Their Children"
+collection: presentations
+permalink: /_presentations/2019PSYTRA
+paperurl: '/downloads/2019PSYTRA.pdf'
+citation: 'He, S., Guo, X., Zhang, T., Bi, T., Qin, H., & Luo, L. (2019 July). *The Antecedents of Trajectory of Maternal Educational Expectations for Their Children*. Poster presented at the 2019 International Meeting of the Psychometric Society, Santiago, Chile.'
+---
