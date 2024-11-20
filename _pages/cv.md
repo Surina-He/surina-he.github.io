@@ -85,6 +85,7 @@ ACADEMIC SERVICES
 * Journal Reviewer:
   * Computers & Education
   * Journal of Educational Data Mining
+  * Interactive Learning Environments
   * Frontiers in Psychology
   * Chinese/English Journal of Educational Measurement and Evaluation
 * Proposal Reviewer:
