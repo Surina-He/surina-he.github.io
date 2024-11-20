@@ -6,6 +6,9 @@
       {% if post.citation %}
         <li>
           {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+          {% if post.paperurl %}
+            (<a href="{{ post.paperurl }}" download>Download Paper</a>)
+          {% endif %}
         </li>
       {% else %}
         <li>
@@ -15,6 +18,9 @@
           {% if post.excerpt %}<br>{{ post.excerpt | markdownify }}{% endif %}
           {% if post.slidesurl %}
             <br>(<a href="{{ post.slidesurl }}" download>Download Slides</a>)
+          {% endif %}
+          {% if post.paperurl %}
+            <br>(<a href="{{ post.paperurl }}" download>Download Paper</a>)
           {% endif %}
         </li>
       {% endif %}
