@@ -1,11 +1,26 @@
-<li>
-  <strong>{{ post.title }}</strong>
-  <p>
-    {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% endif %}
-    {% if post.venue %} at {{ post.venue }}{% endif %}
-  </p>
-  <p>
-    {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
-    {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
-  </p>
-</li>
+{% include base_path %}
+
+<div class="{{ include.type | default: "list" }}__item" style="width: 100%;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
+    
+    <ul>
+      {% if post.citation %}
+        <li class="citation-single-line" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
+          {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+        </li>
+      {% else %}
+        <!-- Fallback format if 'citation' is not available -->
+        <li style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
+          <strong>{{ post.title }}</strong>  
+          {% if post.date %}<br>{{ post.date | date: '%B %d, %Y' }}{% endif %}
+          {% if post.venue %} at {{ post.venue }}{% endif %}
+          {% if post.excerpt %}<br>{{ post.excerpt | markdownify }}{% endif %}
+          {% if post.slidesurl %}
+            <br>(<a href="{{ post.slidesurl }}" download>Download Slides</a>)
+          {% endif %}
+        </li>
+      {% endif %}
+    </ul>
+
+  </article>
+</div>
