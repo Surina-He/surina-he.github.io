@@ -1,34 +1,11 @@
-{% include base_path %}
-
-<div class="{{ include.type | default: "list" }}__item" style="width: 100%;">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-
-    <ul>
-      {% if post.title %}
-        <li class="talk-title" style="font-weight: bold; width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          {{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-        </li>
-      {% endif %}
-
-      {% if post.date or post.venue %}
-        <li class="talk-details" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          {% if post.date %}{{ post.date | date: '%B %d, %Y' }}{% endif %}
-          {% if post.venue %}, {{ post.venue }}{% endif %}
-        </li>
-      {% endif %}
-
-      {% if post.excerpt %}
-        <li class="talk-excerpt" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          {{ post.excerpt | markdownify }}
-        </li>
-      {% endif %}
-
-      {% if post.slidesurl %}
-        <li class="talk-resources" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          (<a href="{{ post.slidesurl }}" download>Download Slides</a>)
-        </li>
-      {% endif %}
-    </ul>
-
-  </article>
-</div>
+<li>
+  <strong>{{ post.title }}</strong>
+  <p>
+    {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% endif %}
+    {% if post.venue %} at {{ post.venue }}{% endif %}
+  </p>
+  <p>
+    {% if post.excerpt %}{{ post.excerpt | markdownify }}{% endif %}
+    {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
+  </p>
+</li>
