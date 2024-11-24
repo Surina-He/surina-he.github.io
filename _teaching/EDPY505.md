@@ -2,11 +2,10 @@
 title: "EDPY 505 Quantitative Method I"
 collection: teaching
 type: "Graduate-level course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/EDPY505
 venue: "University of Alberta, Department of Educational Psychology"
 date: 2024-01-01
 location: "Edmonton, Canada"
-permalink: /teaching/EDPY505.md
 ---
 
 **Course Description**: 
