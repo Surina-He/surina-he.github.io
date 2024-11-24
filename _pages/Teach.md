@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /cv/
+permalink: /Teach/
 author_profile: true
 redirect_from:
   - /resume
