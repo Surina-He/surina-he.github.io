@@ -1,49 +1,18 @@
 {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 20px; width: 100%;">
+<div class="{{ include.type | default: "list" }}__item" style="width: 100%;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
     
     <ul>
-      <!-- Publications -->
-      {% if post.collection == "publications" %}
-        <li style="margin-bottom: 15px;">
+      {% if post.citation %}
+        <li class="citation-single-line" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
           {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
           {% if post.paperurl %}
             (<a href="{{ post.paperurl }}" download>Download Paper</a>)
           {% endif %}
         </li>
       {% endif %}
-
-      <!-- Presentations -->
-      {% if post.collection == "presentations" %}
-        <li style="margin-bottom: 15px;">
-          <strong>{{ post.title }}</strong><br>
-          {% if post.date %}Date: {{ post.date | date: "%B %Y" }}<br>{% endif %}
-          {% if post.venue %}Venue: {{ post.venue }}<br>{% endif %}
-          {% if post.location %}Location: {{ post.location }}<br>{% endif %}
-          <p>{{ content | markdownify }}</p>
-          {% if post.slidesurl %}
-            (<a href="{{ post.slidesurl }}" download>Download Slides</a>)
-          {% endif %}
-        </li>
-      {% endif %}
-
-      <!-- Teaching -->
-      {% if post.collection == "teaching" %}
-      <div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 20px; width: 100%;">
-        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          <h2 class="archive__item-title" itemprop="headline">
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-          </h2>
-          <p> 
-            {% if post.type %} {{ post.type }}, {% endif %} 
-            <i>{{ post.venue }}</i>, 
-            {% if post.date %} {{ post.date | default: "1900-01-01" | date: "%Y" }} {% endif %}
-          </p>
-        </article>
-      </div>
-      {% endif %}
     </ul>
-    
+
   </article>
 </div>
