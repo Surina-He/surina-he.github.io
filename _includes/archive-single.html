@@ -30,17 +30,17 @@
 
       <!-- Teaching -->
       {% if post.collection == "teaching" %}
-        <div style="margin-bottom: 20px;">
-          <h3>{{ post.title }}</h3>
-          <p>
-            {% if post.date %}Date: {{ post.date | date: "%B %Y" }}<br>{% endif %}
-            {% if post.type %}Type: {{ post.type }}<br>{% endif %}
-            {% if post.venue %}Venue: {{ post.venue }}<br>{% endif %}
-            {% if post.location %}Location: {{ post.location }}<br>{% endif %}
-          </p>
-          <p>{{ content | markdownify }}</p>
-        </div>
-      {% endif %}
+  <div style="margin-bottom: 30px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+    <h3 style="margin-bottom: 5px; font-size: 18px;">{{ post.title }}</h3>
+    <p style="margin: 0; font-size: 14px;">
+      {% if post.date %}<strong>Date:</strong> {{ post.date | date: "%B %Y" }}<br>{% endif %}
+      {% if post.type %}<strong>Type:</strong> {{ post.type }}<br>{% endif %}
+      {% if post.venue %}<strong>Venue:</strong> {{ post.venue }}<br>{% endif %}
+      {% if post.location %}<strong>Location:</strong> {{ post.location }}<br>{% endif %}
+    </p>
+    <p style="margin-top: 10px; font-size: 14px; line-height: 1.6;">{{ content | markdownify }}</p>
+  </div>
+{% endif %}
     </ul>
     
   </article>
