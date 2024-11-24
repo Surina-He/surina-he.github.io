@@ -30,17 +30,19 @@
 
       <!-- Teaching -->
       {% if post.collection == "teaching" %}
-  <div style="margin-bottom: 30px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
-    <h3 style="margin-bottom: 5px; font-size: 18px;">{{ post.title }}</h3>
-    <p style="margin: 0; font-size: 14px;">
-      {% if post.date %}<strong>Date:</strong> {{ post.date | date: "%B %Y" }}<br>{% endif %}
-      {% if post.type %}<strong>Type:</strong> {{ post.type }}<br>{% endif %}
-      {% if post.venue %}<strong>Venue:</strong> {{ post.venue }}<br>{% endif %}
-      {% if post.location %}<strong>Location:</strong> {{ post.location }}<br>{% endif %}
-    </p>
-    <p style="margin-top: 10px; font-size: 14px; line-height: 1.6;">{{ content | markdownify }}</p>
-  </div>
-{% endif %}
+        <div class="{{ include.type | default: "list" }}__item">
+          <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+            <h2 class="archive__item-title" itemprop="headline">
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+            </h2>
+            <p> 
+              {% if post.type %} {{ post.type }}, {% endif %} 
+              <i>{{ post.venue }}</i>, 
+              {% if post.date %} {{ post.date | default: "1900-01-01" | date: "%Y" }} {% endif %}
+            </p>
+          </article>
+        </div>
+      {% endif %}
     </ul>
     
   </article>
