@@ -6,6 +6,7 @@ permalink: /teaching/2014-spring-teaching-1
 venue: "University of Alberta, Department of Educational Psychology"
 date: 2024-01-01
 location: "Edmonton, Canada"
+permalink: /teaching/EDPY505.md
 ---
 
 **Course Description**: 
