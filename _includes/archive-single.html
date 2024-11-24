@@ -1,18 +1,43 @@
 {% include base_path %}
 
-<div class="{{ include.type | default: "list" }}__item" style="width: 100%;">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
+<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 20px; width: 100%;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     <ul>
-      {% if post.citation %}
-        <li class="citation-single-line" style="width: 100%; max-width: 100%; white-space: normal; overflow: visible;">
-          {{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      <!-- Handle Teaching Posts -->
+      {% if post.collection == "teaching" %}
+        <li>
+          <h3>{{ post.title }}</h3>
+          {% if post.date %}Date: {{ post.date | date: "%B %Y" }}<br>{% endif %}
+          {% if post.type %}Type: {{ post.type }}<br>{% endif %}
+          {% if post.venue %}Venue: {{ post.venue }}<br>{% endif %}
+          {% if post.location %}Location: {{ post.location }}<br>{% endif %}
+          <p>{{ content | markdownify }}</p>
+        </li>
+
+      <!-- Handle Publications -->
+      {% elsif post.collection == "publications" %}
+        <li>
+          <strong>{{ post.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</strong>
           {% if post.paperurl %}
             (<a href="{{ post.paperurl }}" download>Download Paper</a>)
           {% endif %}
         </li>
+
+      <!-- Handle Presentations -->
+      {% elsif post.collection == "presentations" %}
+        <li>
+          <strong>{{ post.title }}</strong><br>
+          {% if post.date %}Date: {{ post.date | date: "%B %Y" }}<br>{% endif %}
+          {% if post.venue %}Venue: {{ post.venue }}<br>{% endif %}
+          {% if post.location %}Location: {{ post.location }}<br>{% endif %}
+          <p>{{ content | markdownify }}</p>
+          {% if post.slidesurl %}
+            (<a href="{{ post.slidesurl }}" download>Download Slides</a>)
+          {% endif %}
+        </li>
       {% endif %}
     </ul>
-
+    
   </article>
 </div>
