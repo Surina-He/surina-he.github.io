@@ -38,6 +38,6 @@ This project examined the role of preschool children's planning time on their pr
 * **Project 2**: Assessing Collaborative problem-solving based on communicational data
 
 
-## Educational Expectations:
+## 4. Academic Motivations:
 * **Project 1**: The developmental trajectory of primary children's educational expectations
 * **Project 2**: The role of the discrepancy between mothers and children's educational expectations on children's well-being
