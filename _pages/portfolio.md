@@ -22,6 +22,8 @@ class imbalance problem (i.e., moderately or extremely imbalanced classification
 ### Project 2 (Ongoing, PI: Surina He): 
 This project mined the Programme for International Student Assessment (PISA) 2022 data. We mainly explored the role of the discrepancy between self-reported and response-time-based questionnaire-taking motivation on Canadian students' test achievements. We used Response Behavior Effort (RBE) as an indicator of students' response-time-based motivation and applied the Response Surface Analysis (RSA) method to analyze the data. The findings from this study are under review.
 
+****************************************************************
+
 ## 2. Learning Analytics: 
 Studies in this area mainly focus on using log data to explore students' learning behaviors and patterns in digital learning platforms, such as Learning Management Systems (LMS) and Intelligent Tutoring Systems (ITS).
 
