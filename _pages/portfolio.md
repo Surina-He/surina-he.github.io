@@ -6,8 +6,9 @@ author_profile: true
 
 {% include base_path %}
 
-Research Areas
-======
+# Research Areas
+
+## Educational Data Mining
 
 **1. Educational Data Mining**: Studies in this area mainly focus on mining large-scale educational datasets using advanced statistical and machine-learning techniques.
 
