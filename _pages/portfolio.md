@@ -11,8 +11,12 @@ Research Areas
 
 **1. Educational Data Mining**: Studies in this area mainly focus on mining large-scale educational datasets using advanced statistical and machine-learning techniques.
 
-* **_Project 1 (Completed in 2022)_**:
-  This project mined the High School Longitudinal Study of 2009 (HSLS:09) data to explore potential predictors for low socioeconomic status high school students' college enrollment. In this study, we selected malleable factors based on Ecological System Theory and used machine learning techniques, such as random forest, support vector machine, and logistic regression to predict low socioeconomic status high school students' college enrollment status. Findings from this project have been published in the 2023 AERA meeting ([Download Slides](files/04_2023AERAHS.pdf)).
+* **Project 1 (Completed)**: This project mined the High School Longitudinal Study of 2009 (HSLS:09) data.
+  - **_Study 1 (PI: Surina He)_**: In this study, we selected malleable factors based on Ecological System Theory and used machine learning techniques, such as random forest, support vector machine, and logistic regression to predict low socioeconomic status high school students' college enrollment status. Findings from this project have been published in the 2023 AERA meeting ([Download Slides](files/04_2023AERAHS.pdf)).
+  - **_Study 2 (PI: Dr. Okan Bulut)_**: In this study, we predicted high school students' school dropout from human-machine collaboration perspective. We applied random forest, deep learning, and Explainable AI (XAI) methods to identify potential predictors of high school dropout. Findings from this study have been published in the 2023 NCME meeting ([Download Slides](files/08_2023NCMEHW.pdf)) and *Discover Education* ([Download Paper](files/Paper12DroupOut.pdf)).
+  - **Study 3 (PI: Tarid Wongvorachan)**: In this study, we compared several sampling techniques to handle the different ratios of the
+class imbalance problem (i.e., moderately or extremely imbalanced classifications). For our comparison, we used random oversampling
+(ROS), random undersampling (RUS), and the combination of the synthetic minority oversampling technique for nominal and continuous (SMOTE-NC) and RUS as a hybrid resampling technique. Findings from this study have been published in *Information* ([Download Paper](files/Paper8Undersampling.pdf)).
   
 * **Project 2**: Mining the Programme for International Student Assessment (PISA) 2022 to explore the role of discrepancy between self-reported and response-time-based questionnaire-taking motivation on Canadian students' test achievements.
 
