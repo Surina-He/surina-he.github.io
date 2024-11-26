@@ -6,7 +6,7 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-theme: jekyll-theme-cayman
+theme: Jekyll-theme-cayman
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "Surina He"
+  linkedin         : "Surina-He"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
