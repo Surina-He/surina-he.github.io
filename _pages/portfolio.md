@@ -22,7 +22,7 @@ Studies in this area focus on using log data to explore students' learning behav
 * **_Description_**: This project explored the impact of preschool children's initial planning time on their problem-solving performance across tasks of varying difficulty levels. The analysis leveraged mobile log data collected from an Intelligent Tutoring System developed by a Chinese educational technology company. Moderated Generalized Linear and Logistic Regression models were employed as the primary statistical methods to examine the data.
 * **_Outcome_**: Findings from this project are under review.  
 
-****************************************************************
+----
 
 ## 2. Computational Psychometric:
 Studies in this area focus on applying cutting-edge machine-learning techniques and extensive response process data in the educational assessment field.
@@ -43,7 +43,7 @@ Studies in this area focus on applying cutting-edge machine-learning techniques 
 * **_Funding_**: Alberta Innovates Graduate Scholarship and Andrew Stewart Memorial Graduate Prize Award
 * **_Description_**: This study assessed collaborative problem-solving skills using multi-player communication and clickstream data. We mainly used word embeddings, transformers, and dynamic Bayesian approaches to explore all response process data.
 
-****************************************************************
+----
 
 ## 3. Educational Data Mining: 
 Studies in this area focus on mining large-scale educational datasets using advanced statistical and machine-learning techniques.
@@ -59,7 +59,7 @@ Studies in this area focus on mining large-scale educational datasets using adva
 * **_Description_**: This project analyzed the Programme for International Student Assessment (PISA) 2022 data, focusing on the impact of discrepancies between self-reported and response-time-based questionnaire-taking motivation on Canadian students' test performance. Response Behavior Effort (RBE) was employed as a measure of response-time-based motivation, and the data were examined using the Response Surface Analysis (RSA) method to uncover nuanced relationships between motivation types and academic achievement.
 * **_Outcome_**: Findings from this project are under review.
 
-****************************************************************
+----
 
 ## 4. Academic Motivations:
 Studies in this area focus on investigating K-12 students' academic motivation and academic achievements using both cross-sectional and longitudinal survey data. 
