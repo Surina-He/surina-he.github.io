@@ -62,6 +62,8 @@ Studies in this area focus on mining large-scale educational datasets using adva
 ****************************************************************
 
 ## 4. Academic Motivations:
+Studies in this area focus on investigating K-12 students' academic motivation and academic achievements using both cross-sectional and longitudinal survey data. 
+
 ### Project 1: Educational Expectations
 * **_Status_**: Completed
 * **_Study 1 (PI: Surina He)_**: This study explored the developmental trajectory of Chinese primary school students' educational expectations using six waves of longitudinal time-series survey data. Additionally, potential predictors were also explored. We used the latent growth curve model and mixture growth curve models to analyze the data. Findings from this study have been published in *Contemporary Educational Psychology* ([Download Paper](files/Paper7TrajectoriesExpectations.pdf)).
