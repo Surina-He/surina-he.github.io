@@ -11,12 +11,12 @@ author_profile: true
 ## 1. Learning Analytics: 
 Studies in this area focus on using log data to explore students' learning behaviors and patterns in digital learning platforms, such as Learning Management Systems (LMS) and Intelligent Tutoring Systems (ITS).
 
-### Project 1: Self-regulated Learning Pattern
+### Project 1: Examining Changes in College Students' Self-regulated Learning Pattern
 * **_Status_**: Completed (PI: Surina He)
 * **_Description_**: This project investigated how college students' self-regulated learning patterns changed following a formative assessment, with particular attention to differences between low-performing and high-performing students. The analysis utilized log data from the University's Learning Management System, employing advanced process mining techniques, including Fuzzy Miner and pMiner, to uncover insights into behavioral changes.
 * **_Outcome_**: Published in *Computers in Human Behavior* ([Download Paper](files/Paper9SelfRegulatedLearning.pdf)).
   
-### Project 2: Preschool Children's Planning Time and Problem-Solving
+### Project 2: Role of Preschool Children's Planning Time on Problem-Solving Performance
 * **_Status_**: Ongoing (PI: Surina He)
 * **_Funding_**: Alberta Graduate Excellence Scholarship
 * **_Description_**: This project explored the impact of preschool children's initial planning time on their problem-solving performance across tasks of varying difficulty levels. The analysis leveraged mobile log data collected from an Intelligent Tutoring System developed by a Chinese educational technology company. Moderated Generalized Linear and Logistic Regression models were employed as the primary statistical methods to examine the data.
@@ -54,7 +54,7 @@ Studies in this area focus on mining large-scale educational datasets using adva
 * **_Study 2 (PI: Dr. Okan Bulut)_**: his study explored high school dropout prediction from a human-machine collaboration perspective. Advanced methods, such as random forest, deep learning, and Explainable AI (XAI), were utilized to uncover predictors of dropout risk. Findings from this study have been published in the 2023 NCME meeting ([Download Slides](files/08_2023NCMEHW.pdf)) and *Discover Education* ([Download Paper](files/Paper12DroupOut.pdf)).
 * **_Study 3 (PI: Tarid Wongvorachan)_**: This study addressed class imbalance issues in classification tasks by comparing various sampling techniques, including random oversampling (ROS), random undersampling (RUS), and a hybrid method combining synthetic minority oversampling for nominal and continuous data (SMOTE-NC) with RUS. Findings from this study have been published in *Information* ([Download Paper](files/Paper8Undersampling.pdf)).
   
-### Project 2
+### Project 2: Mining the Programme for International Student Assessment (PISA) 2022 Data
 * **_Status_**: Ongoing (PI: Surina He)
 * **_Description_**: This project analyzed the Programme for International Student Assessment (PISA) 2022 data, focusing on the impact of discrepancies between self-reported and response-time-based questionnaire-taking motivation on Canadian students' test performance. Response Behavior Effort (RBE) was employed as a measure of response-time-based motivation, and the data were examined using the Response Surface Analysis (RSA) method to uncover nuanced relationships between motivation types and academic achievement.
 * **_Outcome_**: Findings from this project are under review.
